@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const WorksContaint = () => {
   return (
       
@@ -12,12 +10,11 @@ const WorksContaint = () => {
               <h1 className='max-w-[843px] text-[#FFFFFF] text-2xl leading-[150%] font-semibold not-italic montserrat -tracking-[0.02em] pb-4'>Your Hub for Work</h1>
           </div>
           <div>
-              <p className='max-w-[843px] text-[#D4D4D4] text-lg leading-[160%] font-normal not-italic avenir -tracking-[0.01em] pb-8'>Visibility into all of your project's moving pieces. Minus the noise and distractions.</p>
+              <p className='max-w-[843px] text-[#D4D4D4] text-lg leading-[160%] font-normal not-italic avenir -tracking-[0.01em] pb-8'>Visibility into all of your project&apos;s moving pieces. Minus the noise and distractions.</p>
           </div>
-
           <div className='flex justify-between'>
               <div>
-                  <img className='' src='/images/pic1.svg' alt='' />
+                  <img  src='/images/pic1.svg' alt='' />
               </div>
               <div className='flex items-center mt-56'>
                   <img  src='/images/pic2.svg' alt='' />
@@ -52,7 +49,7 @@ const WorksContaint = () => {
               <h1 className='max-w-[843px] text-[#FFFFFF] text-2xl leading-[150%] font-semibold not-italic montserrat -tracking-[0.02em] pb-4'>Interactive Meeetings</h1>
           </div>
           <div>
-              <p className='max-w-[843px] text-[#D4D4D4] text-lg leading-[160%] font-normal not-italic avenir -tracking-[0.01em] pb-8'>Visibility into all of your project's moving pieces. Minus the noise and distractions.</p>
+              <p className='max-w-[843px] text-[#D4D4D4] text-lg leading-[160%] font-normal not-italic avenir -tracking-[0.01em] pb-8'>Visibility into all of your project&apos;s moving pieces. Minus the noise and distractions.</p>
           </div>
 
           <div className='flex justify-between'>
