@@ -3,7 +3,7 @@ import React from 'react'
 const WorksContaint = () => {
   return (
       
-    <div className='mx-auto container px-4 md:px-10 2xl:px-40'>
+    <div className='mx-auto container px-4 md:px-10 2xl:px-40 md:-mt-32 xl:-mt-80 2xl:mt-0'>
         {/** First */}
       <div className='flex flex-col'>
           <div>

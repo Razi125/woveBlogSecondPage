@@ -5,7 +5,7 @@ const WoveBeforAfter = () => {
       <>
      {/** Wove Before and Wove After */}
     <div className='mx-auto container px-10 2xl:px-40 mt-[91px] mb-14'>
-        <div className='flex justify-between'>
+        <div className='flex justify-between '>
             <div className='left flex flex-col'>
              <div>
                  <h1 className='max-w-[515px] text-[#FFFFFF] text-2xl leading-[150%] font-semibold not-italic montserrat -tracking-[0.02em] pb-2'>Before Wove</h1>
