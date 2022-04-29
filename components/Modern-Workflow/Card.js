@@ -45,7 +45,7 @@ const Card = () => {
         <div className='grid grid-cols-3 gap-x-8 gap-y-8 pl-5'>
             {
                 data?.map((item , index)=>(
-                    <div key={index} className='flex flex-col bg-[#171717] max-w-[403.33px]  rounded-2xl'>
+                    <div key={index} className='flex flex-col bg-[#171717] max-w-[403.33px]  rounded-2xl cursor-pointer hover:bg-black'>
                     <div>
                         <img className='pl-8 pb-8 pt-[84px]' src={item.url} alt=''/>
                     </div>
