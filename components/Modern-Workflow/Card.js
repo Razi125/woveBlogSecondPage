@@ -37,12 +37,12 @@ const Card = () => {
     ]
 
   return (
-    <div className='mx-auto container px-10 2xl:px-40'>
+    <div className='mx-auto container pl-4 pr-6 md:px-10 2xl:px-40'>
     <div className='flex flex-col'>
         <div>
             <h1 className='max-w-[365px] text-[#FFFFFF] text-2xl leading-[150%] -tracking-[0.02em] font-semibold not-italic montserrat pb-[85px]'>Built for the Modern Workflow</h1>
         </div>
-        <div className='grid grid-cols-3 gap-x-8 gap-y-8 pl-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8 pl-5'>
             {
                 data?.map((item , index)=>(
                     <div key={index} className='flex flex-col bg-[#171717] max-w-[403.33px]  rounded-2xl cursor-pointer hover:bg-black'>
@@ -50,7 +50,7 @@ const Card = () => {
                         <img className='pl-8 pb-8 pt-[84px]' src={item.url} alt=''/>
                     </div>
                     <div>
-                        <p className='max-w-[360.33px] text-[#E5E5E5] text-base leading-[150%]  font-normal not-italic avenir pl-8   pb-[84px]'>{item.p}</p>
+                        <p className=' max-w-[360.33px] text-[#E5E5E5] text-base leading-[150%]  font-normal not-italic avenir pl-6   pb-[84px]'>{item.p}</p>
                     </div>
                    </div>
                 ))
